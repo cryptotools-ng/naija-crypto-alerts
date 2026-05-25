@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Alerts Nigeria - Never Miss a Pump</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #00ff88, #00ccff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      font-size: 20px;
+      color: #aaa;
+      margin-bottom: 30px;
+    }
+    .features {
+      text-align: left;
+      background: rgba(255,255,255,0.05);
+      padding: 25px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
+    .features li {
+      list-style: none;
+      padding: 10px 0;
+      font-size: 18px;
+      color: #ddd;
+    }
+    .features li::before {
+      content: "✅ ";
+    }
+    .price-tag {
+      font-size: 36px;
+      color: #00ff88;
+      margin-bottom: 10px;
+    }
+    .price-note {
+      color: #888;
+      margin-bottom: 30px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input[type="email"] {
+      padding: 18px;
+      font-size: 18px;
+      border: 2px solid #333;
+      border-radius: 10px;
+      background: #111;
+      color: #fff;
+      outline: none;
+    }
+    input[type="email"]:focus {
+      border-color: #00ff88;
+    }
+    button {
+      padding: 18px;
+      font-size: 20px;
+      font-weight: bold;
+      background: #00ff88;
+      color: #000;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    button:hover {
+      transform: scale(1.02);
+    }
+    .trust {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #666;
+    }
+    .flag {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="flag">🇳🇬 NIGERIA</div>
+    <h1>Crypto Alerts Nigeria</h1>
+    <p class="subtitle">Get instant alerts when BTC, ETH, or USDC hits your price. No app needed. SMS + WhatsApp.</p>
+    
+    <ul class="features">
+      <li>Set alerts in Naira or USD</li>
+      <li>SMS & WhatsApp notifications</li>
+      <li>Track multiple coins at once</li>
+      <li>Built for Nigerian traders</li>
+    </ul>
+    
+    <div class="price-tag">₦0</div>
+    <p class="price-note">Free during beta. Be first in line.</p>
+    
+    <form action="https://formspree.io/f/mlgvplon" method="POST">
+      <input type="email" name="email" placeholder="Enter your email address" required>
+      <input type="hidden" name="_subject" value="New signup from Crypto Alerts Nigeria">
+      <button type="submit">Join the Waitlist</button>
+    </form>
+    
+    <p class="trust">🇳🇬 Built in Lagos. For Nigerians. By Nigerians.</p>
+  </div>
+</body>
+</html>
